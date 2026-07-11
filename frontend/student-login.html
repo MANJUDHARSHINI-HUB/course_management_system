@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Login &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">E</span>
+        <span class="brand-text">Edu<span>Ledger</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="student-register.html" class="btn btn-ghost btn-sm">Register</a>
+        <a href="admin-login.html" class="btn btn-ghost btn-sm">Admin Login</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="auth-shell">
+    <div class="auth-visual">
+      <div class="auth-visual-card">
+        <div class="icon-badge"><i class="fa-solid fa-book-open-reader"></i></div>
+        <h3>Welcome back, learner</h3>
+        <p>Sign in to pick up your courses exactly where you left off.</p>
+        <ul class="auth-visual-list">
+          <li><i class="fa-solid fa-check"></i> Resume ongoing courses</li>
+          <li><i class="fa-solid fa-check"></i> View progress &amp; certificates</li>
+          <li><i class="fa-solid fa-check"></i> Check academic notifications</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="auth-panel">
+      <div class="auth-form-wrap">
+        <span class="eyebrow">Student Login</span>
+        <h1>Sign in to your ledger</h1>
+        <p>Enter your credentials to access your student dashboard.</p>
+
+        <form action="student-dashboard.html">
+          <div class="field">
+            <label for="sl-email">Email Address</label>
+            <div class="input-wrap"><i class="fa-regular fa-envelope"></i><input type="email" id="sl-email" placeholder="you@university.edu"></div>
+          </div>
+          <div class="field">
+            <label for="sl-pass">Password</label>
+            <div class="input-wrap"><i class="fa-solid fa-lock"></i><input type="password" id="sl-pass" placeholder="••••••••"></div>
+          </div>
+
+          <div class="form-row-between">
+            <label class="checkbox-row"><input type="checkbox"> Remember me</label>
+            <a href="forgot-password.html">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+          <a href="student-register.html" class="btn btn-ghost btn-block mt-16">Register</a>
+        </form>
+
+        <div class="dev-note"><i class="fa-solid fa-circle-info"></i> Authentication functionality will be added in future updates.</div>
+
+        <p class="auth-switch">New to EduLedger? <a href="student-register.html">Create an account</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

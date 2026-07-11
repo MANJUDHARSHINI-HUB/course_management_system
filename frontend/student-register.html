@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">E</span>
+        <span class="brand-text">Edu<span>Ledger</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="student-login.html" class="btn btn-ghost btn-sm">Student Login</a>
+        <a href="admin-login.html" class="btn btn-ghost btn-sm">Admin Login</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="auth-shell">
+    <div class="auth-visual">
+      <div class="auth-visual-card">
+        <div class="icon-badge"><i class="fa-solid fa-user-graduate"></i></div>
+        <h3>Join the student ledger</h3>
+        <p>One account gives you access to enrollment, progress tracking and certificates.</p>
+        <ul class="auth-visual-list">
+          <li><i class="fa-solid fa-check"></i> Enroll in unlimited courses</li>
+          <li><i class="fa-solid fa-check"></i> Track progress in real time</li>
+          <li><i class="fa-solid fa-check"></i> Download certificates on completion</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="auth-panel">
+      <div class="auth-form-wrap">
+        <span class="eyebrow">Student Registration</span>
+        <h1>Create your account</h1>
+        <p>Fill in your details to open a student ledger.</p>
+
+        <form action="student-register-success.html">
+          <div class="form-grid">
+            <div class="field full">
+              <label for="s-name">Full Name <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-regular fa-user"></i><input type="text" id="s-name" placeholder="e.g. Aditi Sharma"></div>
+            </div>
+            <div class="field">
+              <label for="s-id">Student ID <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-id-card"></i><input type="text" id="s-id" placeholder="STU-0000"></div>
+            </div>
+            <div class="field">
+              <label for="s-dept">Department <span class="required">*</span></label>
+              <div class="input-wrap">
+                <i class="fa-solid fa-building-columns"></i>
+                <select id="s-dept">
+                  <option>Computer Science</option>
+                  <option>Information Technology</option>
+                  <option>Electronics</option>
+                  <option>Mechanical Engineering</option>
+                  <option>Business Administration</option>
+                </select>
+              </div>
+            </div>
+            <div class="field full">
+              <label for="s-email">Email Address <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-regular fa-envelope"></i><input type="email" id="s-email" placeholder="you@university.edu"></div>
+            </div>
+            <div class="field full">
+              <label for="s-phone">Phone Number <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-phone"></i><input type="tel" id="s-phone" placeholder="+91 00000 00000"></div>
+            </div>
+            <div class="field">
+              <label for="s-pass">Password <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-lock"></i><input type="password" id="s-pass" placeholder="••••••••"></div>
+            </div>
+            <div class="field">
+              <label for="s-cpass">Confirm Password <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-lock"></i><input type="password" id="s-cpass" placeholder="••••••••"></div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block mt-8">Create Account</button>
+        </form>
+
+        <div class="dev-note"><i class="fa-solid fa-circle-info"></i> Registration functionality will be added in future updates. This form only demonstrates the interface.</div>
+
+        <p class="auth-switch">Already have an account? <a href="student-login.html">Log in</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="dash-shell">
+
+    <aside class="sidebar">
+      <a href="index.html" class="brand"><span class="brand-mark">E</span> Edu<span style="color:var(--gold-light);">Ledger</span></a>
+
+      <nav>
+        <p class="sidebar-section">Overview</p>
+        <a href="admin-dashboard.html" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+        <a href="notifications.html"><i class="fa-regular fa-bell"></i> Notifications</a>
+
+        <p class="sidebar-section">Management</p>
+        <a href="#"><i class="fa-solid fa-users"></i> Student Management</a>
+        <a href="#"><i class="fa-solid fa-book-open"></i> Course Management</a>
+        <a href="#"><i class="fa-solid fa-chart-column"></i> Reports</a>
+
+        <p class="sidebar-section">Account</p>
+        <a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+        <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <a href="index.html" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+      </div>
+    </aside>
+
+    <main class="dash-main">
+      <div class="dash-topbar">
+        <div>
+          <div class="breadcrumb">Admin Console</div>
+          <h1>Dashboard</h1>
+        </div>
+        <div class="topbar-actions">
+          <a href="notifications.html" class="icon-btn"><i class="fa-regular fa-bell"></i><span class="dot"></span></a>
+          <div class="profile-chip">
+            <div class="avatar-placeholder"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="who">Admin<small>Profile pending</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-body">
+
+        <div class="welcome-banner">
+          <div>
+            <h2>Welcome, Admin.</h2>
+            <p>Admin information will appear here after backend integration.</p>
+          </div>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add New Course</a>
+        </div>
+
+        <!-- Stat cards -->
+        <div class="stat-grid">
+          <div class="stat-card tone-gold">
+            <span class="trend up">+12%</span>
+            <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <span class="value">2,438</span>
+            <span class="label">Total Students</span>
+          </div>
+          <div class="stat-card tone-teal">
+            <span class="trend new">+2</span>
+            <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+            <span class="value">10</span>
+            <span class="label">Total Courses</span>
+          </div>
+          <div class="stat-card tone-brown">
+            <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <span class="value">3,912</span>
+            <span class="label">Active Enrollments</span>
+          </div>
+          <div class="stat-card tone-danger">
+            <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+            <span class="value">874</span>
+            <span class="label">Certificates Issued</span>
+          </div>
+        </div>
+
+        <div class="dash-columns">
+          <div>
+            <!-- Student Management -->
+            <div class="panel">
+              <div class="panel-head">
+                <h3>Student Management</h3>
+                <a href="#" class="see-all">View All</a>
+              </div>
+              <table class="data-table">
+                <thead>
+                  <tr><th>Student</th><th>Department</th><th>Status</th><th></th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Aditi Sharma <br><small style="color:var(--muted-dim);">STU-1042</small></td>
+                    <td>Computer Science</td>
+                    <td><span class="pill active">Active</span></td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-eye"></i></a><a href="#"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>Rohan Mehta <br><small style="color:var(--muted-dim);">STU-1043</small></td>
+                    <td>Information Technology</td>
+                    <td><span class="pill pending">Pending</span></td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-eye"></i></a><a href="#"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>Nisha Verma <br><small style="color:var(--muted-dim);">STU-1044</small></td>
+                    <td>Electronics</td>
+                    <td><span class="pill active">Active</span></td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-eye"></i></a><a href="#"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>Karan Malhotra <br><small style="color:var(--muted-dim);">STU-1045</small></td>
+                    <td>Business Administration</td>
+                    <td><span class="pill inactive">Inactive</span></td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-eye"></i></a><a href="#"><i class="fa-regular fa-pen-to-square"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Course Management -->
+            <div class="panel" style="margin-bottom:0;">
+              <div class="panel-head">
+                <h3>Course Management</h3>
+                <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-plus"></i> Add New Course</a>
+              </div>
+              <table class="data-table">
+                <thead>
+                  <tr><th>Course</th><th>Instructor</th><th>Enrolled</th><th></th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML <br><small style="color:var(--muted-dim);">CS-101</small></td>
+                    <td>Ms. Farah Khan</td>
+                    <td>512</td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-pen-to-square"></i></a><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>Data Structures <br><small style="color:var(--muted-dim);">CS-204</small></td>
+                    <td>Mr. Aravind Rao</td>
+                    <td>398</td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-pen-to-square"></i></a><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>Artificial Intelligence <br><small style="color:var(--muted-dim);">AI-310</small></td>
+                    <td>Dr. Leena Suri</td>
+                    <td>276</td>
+                    <td class="table-actions"><a href="#"><i class="fa-regular fa-pen-to-square"></i></a><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="placeholder-box mt-16">Course editing and removal will be enabled after backend integration.</div>
+            </div>
+          </div>
+
+          <div>
+            <!-- Reports -->
+            <div class="panel">
+              <div class="panel-head"><h3>Reports</h3></div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Enrollment Growth</span><span>+12%</span></div>
+                <div class="progress-bar"><span style="width:62%;"></span></div>
+              </div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Course Completion Rate</span><span>78%</span></div>
+                <div class="progress-bar"><span style="width:78%;"></span></div>
+              </div>
+              <div class="progress-row" style="margin-bottom:0;">
+                <div class="progress-label"><span>Certificate Issuance</span><span>54%</span></div>
+                <div class="progress-bar"><span style="width:54%;"></span></div>
+              </div>
+            </div>
+
+            <!-- Notifications preview -->
+            <div class="panel" style="margin-bottom:0;">
+              <div class="panel-head">
+                <h3>Notifications</h3>
+                <a href="notifications.html" class="see-all">See All</a>
+              </div>
+              <div class="notif-card type-system" style="margin-bottom:12px;">
+                <div class="icon"><i class="fa-solid fa-server"></i></div>
+                <div><h4>System Notification</h4><p>Scheduled maintenance this weekend.</p></div>
+              </div>
+              <div class="notif-card type-info" style="margin-bottom:0;">
+                <div class="icon"><i class="fa-solid fa-user-plus"></i></div>
+                <div><h4>New Registrations</h4><p>14 new students registered today.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

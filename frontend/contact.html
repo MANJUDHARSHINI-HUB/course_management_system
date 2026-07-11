@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">E</span>
+        <span class="brand-text">Edu<span>Ledger</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="student-login.html" class="btn btn-ghost btn-sm">Student Login</a>
+        <a href="admin-login.html" class="btn btn-ghost btn-sm">Admin Login</a>
+        <span class="divider"></span>
+        <a href="student-register.html" class="btn btn-primary btn-sm">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Questions about the portal? Write to the office.</h1>
+      <p>Whether you're a student, an instructor, or an administrator evaluating EduLedger for your department, we'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="display:grid; grid-template-columns: 1fr 1fr; gap:56px; align-items:flex-start;">
+      <div>
+        <div class="feature-card mb-16">
+          <div class="feature-icon"><i class="fa-solid fa-envelope"></i></div>
+          <h3>Email</h3>
+          <p>admissions@eduledger.example</p>
+        </div>
+        <div class="feature-card mb-16">
+          <div class="feature-icon"><i class="fa-solid fa-phone"></i></div>
+          <h3>Phone</h3>
+          <p>+91 98765 43210 (Mon&ndash;Fri, 9am&ndash;5pm)</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Campus Office</h3>
+          <p>Academic Block B, Room 214, University Road</p>
+        </div>
+      </div>
+
+      <form class="panel" style="margin-bottom:0;">
+        <div class="field">
+          <label for="c-name">Full Name <span class="required">*</span></label>
+          <div class="input-wrap">
+            <i class="fa-regular fa-user"></i>
+            <input type="text" id="c-name" placeholder="Enter your full name">
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-email">Email Address <span class="required">*</span></label>
+          <div class="input-wrap">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" id="c-email" placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-subject">Subject</label>
+          <div class="input-wrap">
+            <i class="fa-regular fa-message"></i>
+            <input type="text" id="c-subject" placeholder="What is this about?">
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-message">Message <span class="required">*</span></label>
+          <div class="input-wrap">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <input type="text" id="c-message" placeholder="Write your message" style="height:110px;">
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-block">Send Message</button>
+        <p class="field-hint text-center mt-16">Message delivery will be enabled once the backend is integrated.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 EduLedger. All rights reserved.</span>
+        <span>Version 1.0 &mdash; Front-End UI Preview</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

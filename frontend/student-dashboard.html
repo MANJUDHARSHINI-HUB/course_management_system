@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="dash-shell">
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar">
+      <a href="index.html" class="brand"><span class="brand-mark">E</span> Edu<span style="color:var(--gold-light);">Ledger</span></a>
+
+      <nav>
+        <p class="sidebar-section">Overview</p>
+        <a href="student-dashboard.html" class="active"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+        <a href="notifications.html"><i class="fa-regular fa-bell"></i> Notifications</a>
+
+        <p class="sidebar-section">Learning</p>
+        <a href="courses.html"><i class="fa-solid fa-book-open"></i> My Courses</a>
+        <a href="courses.html"><i class="fa-solid fa-layer-group"></i> Browse Catalog</a>
+        <a href="#"><i class="fa-solid fa-certificate"></i> Certificates</a>
+        <a href="#"><i class="fa-regular fa-calendar"></i> Academic Calendar</a>
+
+        <p class="sidebar-section">Account</p>
+        <a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+        <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <a href="index.html" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+      </div>
+    </aside>
+
+    <!-- ===================== MAIN ===================== -->
+    <main class="dash-main">
+      <div class="dash-topbar">
+        <div>
+          <div class="breadcrumb">Student Portal</div>
+          <h1>Dashboard</h1>
+        </div>
+        <div class="topbar-actions">
+          <a href="notifications.html" class="icon-btn"><i class="fa-regular fa-bell"></i><span class="dot"></span></a>
+          <div class="profile-chip">
+            <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+            <div class="who">Student<small>Profile pending</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-body">
+
+        <div class="welcome-banner">
+          <div>
+            <h2>Welcome, Student.</h2>
+            <p>Student information will appear here after backend integration.</p>
+          </div>
+          <a href="courses.html" class="btn btn-primary">Browse Courses</a>
+        </div>
+
+        <!-- Profile placeholder -->
+        <div class="panel">
+          <div class="panel-head"><h3>Student Profile</h3></div>
+          <div class="profile-placeholder-card">
+            <div class="avatar-lg"><i class="fa-solid fa-user"></i></div>
+            <div class="profile-fields" style="flex:1;">
+              <div class="pf-item"><label>Student Name</label><span>Not available yet</span></div>
+              <div class="pf-item"><label>Student ID</label><span>Not available yet</span></div>
+              <div class="pf-item"><label>Email</label><span>Not available yet</span></div>
+              <div class="pf-item"><label>Department</label><span>Not available yet</span></div>
+            </div>
+          </div>
+          <div class="placeholder-box">Student information will appear here after backend integration.</div>
+        </div>
+
+        <!-- Stat cards -->
+        <div class="stat-grid">
+          <div class="stat-card tone-gold">
+            <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+            <span class="value">3</span>
+            <span class="label">Enrolled Courses</span>
+          </div>
+          <div class="stat-card tone-teal">
+            <div class="stat-icon"><i class="fa-solid fa-spinner"></i></div>
+            <span class="value">2</span>
+            <span class="label">Ongoing Courses</span>
+          </div>
+          <div class="stat-card tone-brown">
+            <div class="stat-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <span class="value">1</span>
+            <span class="label">Completed Courses</span>
+          </div>
+          <div class="stat-card tone-danger">
+            <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+            <span class="value">1</span>
+            <span class="label">Certificates Earned</span>
+          </div>
+        </div>
+
+        <div class="dash-columns">
+          <div>
+            <!-- My Courses -->
+            <div class="panel">
+              <div class="panel-head">
+                <h3>My Courses</h3>
+                <a href="courses.html" class="see-all">View Catalog</a>
+              </div>
+
+              <div class="mini-course">
+                <div class="thumb"><i class="fa-brands fa-html5"></i></div>
+                <div class="info">
+                  <h4>HTML Fundamentals &mdash; CS-101</h4>
+                  <div class="progress-bar"><span style="width:72%;"></span></div>
+                </div>
+                <span class="pct">72%</span>
+              </div>
+              <div class="mini-course">
+                <div class="thumb"><i class="fa-solid fa-sitemap"></i></div>
+                <div class="info">
+                  <h4>Data Structures &mdash; CS-204</h4>
+                  <div class="progress-bar"><span style="width:45%;"></span></div>
+                </div>
+                <span class="pct">45%</span>
+              </div>
+              <div class="mini-course">
+                <div class="thumb"><i class="fa-solid fa-brain"></i></div>
+                <div class="info">
+                  <h4>Artificial Intelligence &mdash; AI-310</h4>
+                  <div class="progress-bar"><span style="width:18%;"></span></div>
+                </div>
+                <span class="pct">18%</span>
+              </div>
+            </div>
+
+            <!-- Recent activity -->
+            <div class="panel">
+              <div class="panel-head"><h3>Recent Activities</h3></div>
+              <div class="activity-item">
+                <div class="activity-dot"><i class="fa-solid fa-check"></i></div>
+                <div>
+                  <p>Completed module 4 of <strong>HTML Fundamentals</strong></p>
+                  <span>2 hours ago</span>
+                </div>
+              </div>
+              <div class="activity-item">
+                <div class="activity-dot"><i class="fa-solid fa-book"></i></div>
+                <div>
+                  <p>Enrolled in <strong>Artificial Intelligence</strong></p>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+              <div class="activity-item">
+                <div class="activity-dot"><i class="fa-solid fa-certificate"></i></div>
+                <div>
+                  <p>Earned certificate for <strong>Introduction to CSS</strong></p>
+                  <span>3 days ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- Progress Tracking -->
+            <div class="panel">
+              <div class="panel-head"><h3>Progress Tracking</h3></div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Overall Completion</span><span>45%</span></div>
+                <div class="progress-bar"><span style="width:45%;"></span></div>
+              </div>
+              <div class="progress-row">
+                <div class="progress-label"><span>Weekly Goal</span><span>60%</span></div>
+                <div class="progress-bar"><span style="width:60%;"></span></div>
+              </div>
+              <div class="progress-row" style="margin-bottom:0;">
+                <div class="progress-label"><span>Assignments Submitted</span><span>80%</span></div>
+                <div class="progress-bar"><span style="width:80%;"></span></div>
+              </div>
+            </div>
+
+            <!-- Academic calendar -->
+            <div class="panel">
+              <div class="panel-head"><h3>Academic Calendar</h3></div>
+              <ul class="calendar-list">
+                <li><div class="cal-date">JUL<b>08</b></div><div>Assignment due &mdash; Data Structures</div></li>
+                <li><div class="cal-date">JUL<b>15</b></div><div>Mid-term assessment week begins</div></li>
+                <li><div class="cal-date">JUL<b>22</b></div><div>Certificate ceremony &mdash; HTML Fundamentals</div></li>
+              </ul>
+            </div>
+
+            <!-- Notifications preview -->
+            <div class="panel" style="margin-bottom:0;">
+              <div class="panel-head">
+                <h3>Notifications</h3>
+                <a href="notifications.html" class="see-all">See All</a>
+              </div>
+              <div class="notif-card type-info" style="margin-bottom:12px;">
+                <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+                <div><h4>New Course Added</h4><p>Machine Learning is now open for enrollment.</p></div>
+              </div>
+              <div class="notif-card type-success" style="margin-bottom:0;">
+                <div class="icon"><i class="fa-solid fa-certificate"></i></div>
+                <div><h4>Certificate Ready</h4><p>Your CSS certificate is ready to download.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

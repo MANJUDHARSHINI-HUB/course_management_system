@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Registration &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">E</span>
+        <span class="brand-text">Edu<span>Ledger</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="admin-login.html" class="btn btn-ghost btn-sm">Admin Login</a>
+        <a href="student-login.html" class="btn btn-ghost btn-sm">Student Login</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="auth-shell">
+    <div class="auth-visual">
+      <div class="auth-visual-card">
+        <div class="icon-badge"><i class="fa-solid fa-user-shield"></i></div>
+        <h3>Administer the catalog</h3>
+        <p>Admin accounts manage courses, students and enrollment records.</p>
+        <ul class="auth-visual-list">
+          <li><i class="fa-solid fa-check"></i> Add and edit courses</li>
+          <li><i class="fa-solid fa-check"></i> Oversee student records</li>
+          <li><i class="fa-solid fa-check"></i> Review enrollment reports</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="auth-panel">
+      <div class="auth-form-wrap">
+        <span class="eyebrow">Admin Registration</span>
+        <h1>Create an admin account</h1>
+        <p>Fill in your details to request administrative access.</p>
+
+        <form action="admin-register-success.html">
+          <div class="form-grid">
+            <div class="field full">
+              <label for="a-name">Full Name <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-regular fa-user"></i><input type="text" id="a-name" placeholder="e.g. Karan Malhotra"></div>
+            </div>
+            <div class="field full">
+              <label for="a-id">Admin ID <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-id-badge"></i><input type="text" id="a-id" placeholder="ADM-0000"></div>
+            </div>
+            <div class="field full">
+              <label for="a-email">Email Address <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-regular fa-envelope"></i><input type="email" id="a-email" placeholder="you@university.edu"></div>
+            </div>
+            <div class="field full">
+              <label for="a-phone">Phone Number <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-phone"></i><input type="tel" id="a-phone" placeholder="+91 00000 00000"></div>
+            </div>
+            <div class="field">
+              <label for="a-pass">Password <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-lock"></i><input type="password" id="a-pass" placeholder="••••••••"></div>
+            </div>
+            <div class="field">
+              <label for="a-cpass">Confirm Password <span class="required">*</span></label>
+              <div class="input-wrap"><i class="fa-solid fa-lock"></i><input type="password" id="a-cpass" placeholder="••••••••"></div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block mt-8">Create Admin Account</button>
+        </form>
+
+        <div class="dev-note"><i class="fa-solid fa-circle-info"></i> Registration functionality will be added in future updates. This form only demonstrates the interface.</div>
+
+        <p class="auth-switch">Already an admin? <a href="admin-login.html">Log in</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

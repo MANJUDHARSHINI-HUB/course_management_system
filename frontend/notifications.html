@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications &mdash; EduLedger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="dash-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="brand"><span class="brand-mark">E</span> Edu<span style="color:var(--gold-light);">Ledger</span></a>
+
+      <nav>
+        <p class="sidebar-section">Overview</p>
+        <a href="student-dashboard.html"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+        <a href="notifications.html" class="active"><i class="fa-regular fa-bell"></i> Notifications</a>
+
+        <p class="sidebar-section">Learning</p>
+        <a href="courses.html"><i class="fa-solid fa-book-open"></i> My Courses</a>
+        <a href="courses.html"><i class="fa-solid fa-layer-group"></i> Browse Catalog</a>
+        <a href="#"><i class="fa-solid fa-certificate"></i> Certificates</a>
+        <a href="#"><i class="fa-regular fa-calendar"></i> Academic Calendar</a>
+
+        <p class="sidebar-section">Account</p>
+        <a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+        <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+      </nav>
+
+      <div class="sidebar-foot">
+        <a href="index.html" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+      </div>
+    </aside>
+
+    <main class="dash-main">
+      <div class="dash-topbar">
+        <div>
+          <div class="breadcrumb">Student Portal</div>
+          <h1>Notification Center</h1>
+        </div>
+        <div class="topbar-actions">
+          <div class="profile-chip">
+            <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+            <div class="who">Student<small>Profile pending</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-body">
+        <div class="panel" style="max-width:760px;">
+
+          <div class="notif-card type-info">
+            <div class="icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <div><h4>Welcome to EduLedger</h4><p>Your student ledger has been prepared. Explore the catalog to begin.</p><time>Today, 9:12 AM</time></div>
+            <span class="unread-dot"></span>
+          </div>
+
+          <div class="notif-card type-system">
+            <div class="icon"><i class="fa-solid fa-clock"></i></div>
+            <div><h4>Assignment Reminder</h4><p>Your Data Structures assignment is due in 3 days.</p><time>Today, 8:00 AM</time></div>
+            <span class="unread-dot"></span>
+          </div>
+
+          <div class="notif-card type-info">
+            <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <div><h4>New Course Added</h4><p>Machine Learning (AI-320) is now open for enrollment.</p><time>Yesterday, 4:45 PM</time></div>
+          </div>
+
+          <div class="notif-card type-success">
+            <div class="icon"><i class="fa-solid fa-certificate"></i></div>
+            <div><h4>Certificate Ready</h4><p>Your certificate for Introduction to CSS is ready to download.</p><time>3 days ago</time></div>
+          </div>
+
+          <div class="notif-card type-info">
+            <div class="icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <div><h4>Course Update</h4><p>A new module was added to HTML Fundamentals.</p><time>4 days ago</time></div>
+          </div>
+
+          <div class="notif-card type-system" style="margin-bottom:0;">
+            <div class="icon"><i class="fa-solid fa-server"></i></div>
+            <div><h4>System Notification</h4><p>Scheduled maintenance this weekend from 1&ndash;3 AM.</p><time>1 week ago</time></div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
