@@ -1,1 +1,0 @@
-This portal uses illustration-free, CSS/SVG-drawn visuals (the hero 'course ledger' card stack, thumbnails, icons) instead of static image files, so no images are required here in Version 1. Add real photography or artwork here in a future version.
