@@ -15,15 +15,15 @@ Student-Course-Management-Portal-Updated/
 │   ├── html/       # Original HTML pages
 │   ├── css/        # Original CSS files
 │   ├── js/         # Original + updated JavaScript logic
-│   ├── images/
-│   └── icons/
+│   
+│  
 │
 ├── react-frontend/ # React + Vite + React Router application
 │   ├── public/
 │   │   ├── css/
-│   │   ├── images/
-│   │   ├── icons/
 │   │   └── legacy/js/
+│   │  
+│   │   
 │   └── src/
 │       ├── auth/
 │       ├── components/
@@ -32,8 +32,7 @@ Student-Course-Management-Portal-Updated/
 │       ├── main.jsx
 │       └── index.css
 │
-├── CHANGE_REPORT.md
-├── CLAUDE_PROMPT.txt
+├
 └── README_UPDATED.md
 ```
 
