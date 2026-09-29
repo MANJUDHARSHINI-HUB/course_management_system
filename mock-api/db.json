@@ -1,0 +1,622 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "courseName": "HTML",
+      "courseCode": "CS-101",
+      "name": "HTML",
+      "code": "CS-101",
+      "instructor": "Ms. Farah Khan",
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "category": "Web Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "icon": "fa-brands fa-html5",
+      "status": "Active",
+      "overview": "Learn semantic markup and document structure for the modern web.",
+      "desc": "Learn semantic markup and document structure for the modern web.",
+      "learningOutcomes": [
+        "Understand HTML fundamentals",
+        "Practice core HTML concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "2",
+      "courseName": "CSS",
+      "courseCode": "CS-102",
+      "name": "CSS",
+      "code": "CS-102",
+      "instructor": "Ms. Farah Khan",
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "category": "Web Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+      "icon": "fa-brands fa-css3-alt",
+      "status": "Active",
+      "overview": "Style, layout and animation techniques for polished interfaces.",
+      "desc": "Style, layout and animation techniques for polished interfaces.",
+      "learningOutcomes": [
+        "Understand CSS fundamentals",
+        "Practice core CSS concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "3",
+      "courseName": "JavaScript",
+      "courseCode": "CS-150",
+      "name": "JavaScript",
+      "code": "CS-150",
+      "instructor": "Mr. Rohan Mehta",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Web Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+      "icon": "fa-brands fa-js",
+      "status": "Active",
+      "overview": "Bring interactivity to the browser with modern JavaScript.",
+      "desc": "Bring interactivity to the browser with modern JavaScript.",
+      "learningOutcomes": [
+        "Understand JavaScript fundamentals",
+        "Practice core JavaScript concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "4",
+      "courseName": "Python",
+      "courseCode": "CS-160",
+      "name": "Python",
+      "code": "CS-160",
+      "instructor": "Dr. Nisha Verma",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Programming",
+      "image": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+      "icon": "fa-brands fa-python",
+      "status": "Active",
+      "overview": "General-purpose programming with a gentle, readable syntax.",
+      "desc": "General-purpose programming with a gentle, readable syntax.",
+      "learningOutcomes": [
+        "Understand Python fundamentals",
+        "Practice core Python concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "5",
+      "courseName": "Java",
+      "courseCode": "CS-170",
+      "name": "Java",
+      "code": "CS-170",
+      "instructor": "Mr. Aravind Rao",
+      "duration": "9 weeks",
+      "level": "Intermediate",
+      "category": "Programming",
+      "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+      "icon": "fa-brands fa-java",
+      "status": "Active",
+      "overview": "Object-oriented fundamentals for large-scale applications.",
+      "desc": "Object-oriented fundamentals for large-scale applications.",
+      "learningOutcomes": [
+        "Understand Java fundamentals",
+        "Practice core Java concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "6",
+      "courseName": "C++",
+      "courseCode": "CS-180",
+      "name": "C++",
+      "code": "CS-180",
+      "instructor": "Mr. Aravind Rao",
+      "duration": "10 weeks",
+      "level": "Advanced",
+      "category": "Programming",
+      "image": "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
+      "icon": "fa-solid fa-code",
+      "status": "Active",
+      "overview": "Performance-focused programming with manual memory control.",
+      "desc": "Performance-focused programming with manual memory control.",
+      "learningOutcomes": [
+        "Understand C++ fundamentals",
+        "Practice core C++ concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "7",
+      "courseName": "DBMS",
+      "courseCode": "CS-204",
+      "name": "DBMS",
+      "code": "CS-204",
+      "instructor": "Dr. Leena Suri",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Computer Science",
+      "image": "https://cdn-icons-png.flaticon.com/512/4248/4248443.png",
+      "icon": "fa-solid fa-diagram-project",
+      "status": "Active",
+      "overview": "Relational design, normalization and query fundamentals.",
+      "desc": "Relational design, normalization and query fundamentals.",
+      "learningOutcomes": [
+        "Understand DBMS fundamentals",
+        "Practice core DBMS concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "8",
+      "courseName": "Data Structures",
+      "courseCode": "CS-210",
+      "name": "Data Structures",
+      "code": "CS-210",
+      "instructor": "Mr. Aravind Rao",
+      "duration": "10 weeks",
+      "level": "Advanced",
+      "category": "Computer Science",
+      "image": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "icon": "fa-solid fa-sitemap",
+      "status": "Active",
+      "overview": "Arrays to trees — the building blocks of efficient software.",
+      "desc": "Arrays to trees — the building blocks of efficient software.",
+      "learningOutcomes": [
+        "Understand Data Structures fundamentals",
+        "Practice core Data Structures concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "9",
+      "courseName": "Artificial Intelligence",
+      "courseCode": "AI-310",
+      "name": "Artificial Intelligence",
+      "code": "AI-310",
+      "instructor": "Dr. Leena Suri",
+      "duration": "12 weeks",
+      "level": "Advanced",
+      "category": "Artificial Intelligence",
+      "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+      "icon": "fa-solid fa-brain",
+      "status": "Active",
+      "overview": "Search, logic and knowledge representation for intelligent systems.",
+      "desc": "Search, logic and knowledge representation for intelligent systems.",
+      "learningOutcomes": [
+        "Understand Artificial Intelligence fundamentals",
+        "Practice core Artificial Intelligence concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "10",
+      "courseName": "Machine Learning",
+      "courseCode": "AI-320",
+      "name": "Machine Learning",
+      "code": "AI-320",
+      "instructor": "Dr. Nisha Verma",
+      "duration": "12 weeks",
+      "level": "Advanced",
+      "category": "Artificial Intelligence",
+      "image": "https://cdn-icons-png.flaticon.com/512/2103/2103832.png",
+      "icon": "fa-solid fa-robot",
+      "status": "Active",
+      "overview": "Statistical models and training pipelines for predictive systems.",
+      "desc": "Statistical models and training pipelines for predictive systems.",
+      "learningOutcomes": [
+        "Understand Machine Learning fundamentals",
+        "Practice core Machine Learning concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "11",
+      "courseName": "React.js",
+      "courseCode": "CS-220",
+      "name": "React.js",
+      "code": "CS-220",
+      "instructor": "Ms. Kavya Iyer",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Web Development",
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919851.png",
+      "icon": "fa-brands fa-react",
+      "status": "Active",
+      "overview": "Build component-based user interfaces with React, routing and state management.",
+      "desc": "Build component-based user interfaces with React, routing and state management.",
+      "learningOutcomes": [
+        "Understand React.js fundamentals",
+        "Practice core React.js concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "12",
+      "courseName": "Node.js",
+      "courseCode": "CS-230",
+      "name": "Node.js",
+      "code": "CS-230",
+      "instructor": "Mr. Arjun Nair",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Computer Science",
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+      "icon": "fa-brands fa-node-js",
+      "status": "Active",
+      "overview": "Create server-side JavaScript applications and REST APIs with Node.js.",
+      "desc": "Create server-side JavaScript applications and REST APIs with Node.js.",
+      "learningOutcomes": [
+        "Understand Node.js fundamentals",
+        "Practice core Node.js concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "13",
+      "courseName": "Git & GitHub",
+      "courseCode": "CS-240",
+      "name": "Git & GitHub",
+      "code": "CS-240",
+      "instructor": "Mr. Vivek Kumar",
+      "duration": "4 weeks",
+      "level": "Beginner",
+      "category": "Computer Science",
+      "image": "https://cdn-icons-png.flaticon.com/512/2111/2111288.png",
+      "icon": "fa-brands fa-github",
+      "status": "Active",
+      "overview": "Learn version control, branching, pull requests and collaborative GitHub workflows.",
+      "desc": "Learn version control, branching, pull requests and collaborative GitHub workflows.",
+      "learningOutcomes": [
+        "Understand Git & GitHub fundamentals",
+        "Practice core Git & GitHub concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "14",
+      "courseName": "Docker Basics",
+      "courseCode": "CS-250",
+      "name": "Docker Basics",
+      "code": "CS-250",
+      "instructor": "Ms. Priya Menon",
+      "duration": "5 weeks",
+      "level": "Beginner",
+      "category": "DevOps",
+      "image": "https://cdn-icons-png.flaticon.com/512/919/919853.png",
+      "icon": "fa-brands fa-docker",
+      "status": "Active",
+      "overview": "Understand containers, images, Dockerfiles and practical application packaging.",
+      "desc": "Understand containers, images, Dockerfiles and practical application packaging.",
+      "learningOutcomes": [
+        "Understand Docker Basics fundamentals",
+        "Practice core Docker Basics concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "15",
+      "courseName": "AWS Fundamentals",
+      "courseCode": "CS-260",
+      "name": "AWS Fundamentals",
+      "code": "CS-260",
+      "instructor": "Mr. Daniel Joseph",
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "category": "Cloud",
+      "image": "https://cdn-icons-png.flaticon.com/512/873/873107.png",
+      "icon": "fa-brands fa-aws",
+      "status": "Active",
+      "overview": "Explore core cloud concepts, compute, storage, networking and AWS services.",
+      "desc": "Explore core cloud concepts, compute, storage, networking and AWS services.",
+      "learningOutcomes": [
+        "Understand AWS Fundamentals fundamentals",
+        "Practice core AWS Fundamentals concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "16",
+      "courseName": "DevOps & CI/CD",
+      "courseCode": "CS-270",
+      "name": "DevOps & CI/CD",
+      "code": "CS-270",
+      "instructor": "Dr. Rahul Das",
+      "duration": "7 weeks",
+      "level": "Intermediate",
+      "category": "DevOps",
+      "image": "https://cdn-icons-png.flaticon.com/512/8637/8637107.png",
+      "icon": "fa-solid fa-gears",
+      "status": "Active",
+      "overview": "Learn continuous integration, delivery, automation and deployment workflows.",
+      "desc": "Learn continuous integration, delivery, automation and deployment workflows.",
+      "learningOutcomes": [
+        "Understand DevOps & CI/CD fundamentals",
+        "Practice core DevOps & CI/CD concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "17",
+      "courseName": "Power BI",
+      "courseCode": "DA-301",
+      "name": "Power BI",
+      "code": "DA-301",
+      "instructor": "Ms. Sneha Kapoor",
+      "duration": "6 weeks",
+      "level": "Intermediate",
+      "category": "Data Analytics",
+      "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png",
+      "icon": "fa-solid fa-chart-column",
+      "status": "Active",
+      "overview": "Create dashboards, transform data and communicate insights with Power BI.",
+      "desc": "Create dashboards, transform data and communicate insights with Power BI.",
+      "learningOutcomes": [
+        "Understand Power BI fundamentals",
+        "Practice core Power BI concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    },
+    {
+      "id": "18",
+      "courseName": "Cyber Security Basics",
+      "courseCode": "CY-305",
+      "name": "Cyber Security Basics",
+      "code": "CY-305",
+      "instructor": "Dr. Meera Shah",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "category": "Cyber Security",
+      "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+      "icon": "fa-solid fa-shield-halved",
+      "status": "Active",
+      "overview": "Learn security fundamentals, authentication, common threats and safe practices.",
+      "desc": "Learn security fundamentals, authentication, common threats and safe practices.",
+      "learningOutcomes": [
+        "Understand Cyber Security Basics fundamentals",
+        "Practice core Cyber Security Basics concepts",
+        "Apply the concepts in exercises",
+        "Build a small project"
+      ],
+      "modules": [
+        "Introduction",
+        "Core Concepts",
+        "Practical Exercises",
+        "Project",
+        "Review"
+      ],
+      "enrollmentCount": 0,
+      "averageRating": 0
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-1001",
+      "name": "Manju Dharshini S",
+      "username": "manju.dharshini@university.edu",
+      "email": "manju.dharshini@university.edu",
+      "password": "student123",
+      "studentId": "STU-1001",
+      "department": "Computer Science",
+      "dept": "Computer Science",
+      "phone": "",
+      "status": "active"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM-2001",
+      "name": "Anu S",
+      "username": "anu.s@university.edu",
+      "email": "anu.s@university.edu",
+      "password": "admin123",
+      "adminId": "ADM-2001",
+      "phone": "",
+      "status": "active"
+    }
+  ],
+  "enrollments": [
+    {
+      "username": "manju.dharshini@university.edu",
+      "studentUsername": "manju.dharshini@university.edu",
+      "studentId": "STU-1001",
+      "courseCode": "CS-101",
+      "courseId": "1",
+      "enrolledAt": "2026-09-29T03:58:00.086Z",
+      "id": 1
+    }
+  ],
+  "progress": [
+    {
+      "username": "manju.dharshini@university.edu",
+      "studentId": "STU-1001",
+      "courseCode": "CS-101",
+      "progress": 100,
+      "completed": true,
+      "id": 1,
+      "completedAt": "2026-09-29T03:58:13.123Z"
+    }
+  ],
+  "ratings": [],
+  "savedCourses": [
+    {
+      "username": "manju.dharshini@university.edu",
+      "courseCode": "CS-101",
+      "courseId": "1",
+      "savedAt": "2026-09-29T03:57:51.475Z",
+      "id": 1
+    }
+  ],
+  "notifications": [],
+  "achievements": []
+}
